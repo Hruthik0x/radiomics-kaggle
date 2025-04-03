@@ -2,9 +2,15 @@ from os import mkdir, listdir, remove, path
 from DICOMLib import DICOMUtils
 import slicer 
 
-db_dir = "/home/festus/Documents/pet-radiomics-challenges/Training/"
 log_file = "/home/festus/Documents/GitHub/radiomics-kaggle/log.txt"
-OUT_PATH = "/home/festus/Documents/GitHub/radiomics-kaggle/NIFTI/"
+
+# OUT_PATH = "/home/festus/Documents/pet-radiomics-challenges/Training_nifti/"
+# db_dir = "/home/festus/Documents/pet-radiomics-challenges/Training/"
+
+OUT_PATH = "/home/festus/Documents/pet-radiomics-challenges/Test_nifti/"
+db_dir = "/home/festus/Documents/pet-radiomics-challenges/Test/"
+
+
 
 if not path.exists(OUT_PATH) :
     mkdir(OUT_PATH)
