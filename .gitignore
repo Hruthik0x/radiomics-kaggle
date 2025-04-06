@@ -1,1 +1,3 @@
-log.txt
+log_training.txt
+log_test.txt
+__pycache__

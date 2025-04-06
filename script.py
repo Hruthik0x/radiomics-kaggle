@@ -4,13 +4,14 @@ import slicer
 
 # GLOBAL VARS
 
-log_file = "/home/festus/Documents/GitHub/radiomics-kaggle/log.txt"
+# log_file = "/home/festus/Documents/GitHub/radiomics-kaggle/log_training.txt"
+# OUT_PATH = "/home/festus/Documents/pet-radiomics-challenges/Training_nifti/"
+# db_dir = "/home/festus/Documents/pet-radiomics-challenges/Training/"
 
-OUT_PATH = "/home/festus/Documents/pet-radiomics-challenges/Training_nifti/"
-db_dir = "/home/festus/Documents/pet-radiomics-challenges/Training/"
+OUT_PATH = "/home/festus/Documents/pet-radiomics-challenges/Test_nifti/"
+db_dir = "/home/festus/Documents/pet-radiomics-challenges/Test/"
+log_file = "/home/festus/Documents/GitHub/radiomics-kaggle/log_test.txt"
 
-# OUT_PATH = "/home/festus/Documents/pet-radiomics-challenges/Test_nifti/"
-# db_dir = "/home/festus/Documents/pet-radiomics-challenges/Test/"
 
 def make_missing() :
 
