@@ -78,8 +78,6 @@ def dcm_to_nii() :
 
         slicer.mrmlScene.Clear()
 
-    # print(to_be_done)
-
 if __name__ == "__main__" :
     make_missing()
     dcm_to_nii()
